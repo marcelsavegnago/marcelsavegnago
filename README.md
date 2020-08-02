@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/LinkedIn-marcelsavegnago-blue)](https://www.linkedin.com/in/marcelsavegnago/)
-[![](https://img.shields.io/badge/Escodoo-blueviolet)](https://www.escodoo.com.br)
+[![](https://img.shields.io/badge/Company-Escodoo-blueviolet)](https://www.escodoo.com.br)
 
 ```python3
 from marcel.savegnago import me as Me
