@@ -21,7 +21,7 @@ class About(Me):
     def get_current_work(self):
         return {
             'company': 'Escodoo',
-            'position': 'Python/Odoo Developer'
+            'position': 'Co-founder/Odoo Developer and Consultant'
         }
 
 ```
