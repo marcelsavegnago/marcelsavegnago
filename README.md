@@ -1,16 +1,27 @@
-### Hi there 👋
+[![](https://img.shields.io/badge/LinkedIn-marcelsavegnago-blue)](https://www.linkedin.com/in/marcelsavegnago/)
+[![](https://img.shields.io/badge/Escodoo-blueviolet)](https://www.escodoo.com.br)
 
-<!--
-**marcelsavegnago/marcelsavegnago** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python3
+from marcel.savegnago import me as Me
 
-Here are some ideas to get you started:
+class About(Me):
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def get_code_knowledge(self):
+        return ['Python', 'JavaScript', 'Shell', 'HTML', 'CSS']
+
+    def get_database_knowledge(self):
+        return ['MySql', 'PostgreSql']
+
+    def get_current_learning(self):
+        return ['Odoo', 'Design Patterns']
+
+    def get_daily_tools(self):
+        return ['Linux', 'Proxmox', 'Pycharm', 'Git']
+
+    def get_current_work(self):
+        return {
+            'company': 'Escodoo',
+            'position': 'Python/Odoo Developer'
+        }
+
+```
