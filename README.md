@@ -10,18 +10,19 @@ class About(Me):
         return ['Python', 'JavaScript', 'Shell', 'HTML', 'CSS']
 
     def get_database_knowledge(self):
-        return ['MySql', 'PostgreSql']
+        return ['PostgreSql', 'MySql', SQL Server]
 
     def get_current_learning(self):
         return ['Odoo', 'Design Patterns']
 
     def get_daily_tools(self):
-        return ['Linux', 'Proxmox', 'Pycharm', 'Git']
+        return ['Odoo', 'Pycharm', 'Git', 'Linux']
 
     def get_current_work(self):
         return {
             'company': 'Escodoo',
-            'position': 'Co-founder/Odoo Developer and Consultant'
+            'position': 'Co-founder, Project Manager, Odoo Consultant and Odoo Developer',
+            'website': 'https://www.escodoo.com.br'
         }
 
 ```
