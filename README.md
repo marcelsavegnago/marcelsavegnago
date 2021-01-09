@@ -10,7 +10,7 @@ class About(Me):
         return ['Python', 'JavaScript', 'Shell', 'HTML', 'CSS']
 
     def get_database_knowledge(self):
-        return ['PostgreSql', 'MySql', 'SQL Server]
+        return ['PostgreSql', 'MySql', 'SQL Server']
 
     def get_current_learning(self):
         return ['Odoo', 'Design Patterns']
