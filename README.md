@@ -10,13 +10,13 @@ class About(Me):
         return ['Python', 'JavaScript', 'Shell', 'HTML', 'CSS']
 
     def get_database_knowledge(self):
-        return ['PostgreSql', 'MySql', 'SQL Server']
+        return ['PostgreSQL', 'MySQL', 'SQL Server']
 
     def get_current_learning(self):
-        return ['Odoo', 'Design Patterns']
+        return ['Odoo', 'Design Patterns', 'Python']
 
     def get_daily_tools(self):
-        return ['Odoo', 'Pycharm', 'Git', 'Linux']
+        return ['Odoo', 'Git', 'Linux', 'Docker', 'Doodba', 'VSCode']
 
     def get_current_work(self):
         return {
