@@ -13,7 +13,7 @@ class About(Me):
         return ['PostgreSQL', 'MySQL', 'SQL Server']
 
     def get_current_learning(self):
-        return ['Odoo', 'Design Patterns', 'Python']
+        return ['Odoo', 'Design Patterns', 'Python', 'IA']
 
     def get_daily_tools(self):
         return ['Odoo', 'Git', 'Linux', 'Docker', 'Doodba', 'VSCode']
