@@ -1,27 +1,32 @@
-[![](https://img.shields.io/badge/LinkedIn-marcelsavegnago-blue)](https://www.linkedin.com/in/marcelsavegnago/)
-[![](https://img.shields.io/badge/Company-Escodoo-blueviolet)](https://www.escodoo.com.br)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-MarcelSavegnago-blue)](https://www.linkedin.com/in/marcelsavegnago/)
+[![Company](https://img.shields.io/badge/Company-Escodoo-blueviolet)](https://www.escodoo.com.br)
 
-```python3
+```python
 from marcel.savegnago import me as Me
 
 class About(Me):
 
-    def get_code_knowledge(self):
+    def coding_skills(self):
+        """List coding languages I'm proficient in."""
         return ['Python', 'JavaScript', 'Shell', 'HTML', 'CSS']
 
-    def get_database_knowledge(self):
+    def database_expertise(self):
+        """Showcase database knowledge."""
         return ['PostgreSQL', 'MySQL', 'SQL Server']
 
-    def get_current_learning(self):
-        return ['Odoo', 'Design Patterns', 'Python', 'IA']
+    def learning_journey(self):
+        """Highlight current learning interests."""
+        return ['Odoo ERP', 'Design Patterns', 'Advanced Python', 'Artificial Intelligence']
 
-    def get_daily_tools(self):
-        return ['Odoo', 'Git', 'Linux', 'Docker', 'Doodba', 'VSCode']
+    def tools_of_the_trade(self):
+        """Share daily utilized tools for productivity."""
+        return ['Odoo ERP', 'Git', 'Linux', 'Docker', 'Doodba', 'VSCode']
 
-    def get_current_work(self):
+    def current_engagement(self):
+        """Detail current professional engagement."""
         return {
             'company': 'Escodoo',
-            'position': 'Co-founder, Project Manager, Odoo Consultant and Odoo Developer',
+            'role': 'Co-founder, Project Manager, Odoo Consultant, Odoo Developer',
             'website': 'https://www.escodoo.com.br'
         }
 
