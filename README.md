@@ -16,18 +16,18 @@ class About(Me):
 
     def learning_journey(self):
         """Highlight current learning interests."""
-        return ['Odoo ERP', 'Design Patterns', 'Advanced Python', 'Artificial Intelligence']
+        return ['Odoo', 'ERP', 'Business Intelligence', 'Artificial Intelligence', 'Design Patterns', 'Advanced Python']
 
     def tools_of_the_trade(self):
         """Share daily utilized tools for productivity."""
-        return ['Odoo ERP', 'Git', 'Linux', 'Docker', 'Doodba', 'VSCode']
+        return ['Odoo', 'Git', 'Linux', 'Docker', 'Doodba', 'VSCode']
 
     def current_engagement(self):
         """Detail current professional engagement."""
         return {
             'company': 'Escodoo',
             'role': 'Co-founder, Project Manager, Odoo Consultant, Odoo Developer',
-            'website': 'https://www.escodoo.com.br'
+            'website': 'https://escodoo.com.br'
         }
 
 ```
