@@ -5,11 +5,14 @@
 from marcel.savegnago import me as Me
 
 class About(Me):
-    """A class encapsulating my expertise as an Odoo Alias Source Specialist, PSC member of OCA repositories (l10n-brazil, fleet, helpdesk-mgmt), and skills in Python, AI, and DevOps."""
+    """A class encapsulating my expertise as an Odoo Alias Source Specialist,
+    PSC member of OCA repos (l10n-brazil, fleet, helpdesk-mgmt), and skills in
+    Python, AI, and DevOps."""
 
     def coding_skills(self):
         """Returns a list of programming languages I’m proficient in."""
-        return ['Python', 'JavaScript', 'Shell', 'HTML', 'CSS', 'TypeScript', 'Go']
+        return ['Python', 'JavaScript', 'Shell', 'HTML', 'CSS', 'TypeScript',
+                'Go']
 
     def odoo_expertise(self):
         """Returns my specialized Odoo skills and contributions."""
@@ -57,7 +60,7 @@ class About(Me):
         ]
 
     def tools_of_the_trade(self):
-        """Returns tools I use daily for Odoo, Python, AI, and DevOps workflows."""
+        """Returns tools I use daily for Odoo, Python, AI, and DevOps."""
         return [
             'Odoo', 'Python', 'Git', 'Linux', 'Docker',
             'Kubernetes', 'VSCode', 'Doodba',
@@ -65,13 +68,13 @@ class About(Me):
         ]
 
     def current_engagement(self):
-        """Returns details about my current professional roles and affiliations."""
+        """Returns details about my current professional roles."""
         return {
             'companies': ['Escodoo', 'Deepze.ai'],
-            'role': 'Co-founder, Project Manager, Odoo Consultant, Python Developer, PSC Member (OCA)',
+            'role': 'Co-founder, Project Manager, Odoo Consultant, '
+                    'Python Developer, PSC Member (OCA)',
             'websites': ['https://escodoo.com.br', 'https://deepze.ai']
         }
-
 
 ```
 ![MarcelSavegnago's github stats](https://github-readme-stats.vercel.app/api?username=marcelsavegnago&show_icons=true&hide_border=true&theme=buefy)
