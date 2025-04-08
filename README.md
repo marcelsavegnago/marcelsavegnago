@@ -6,8 +6,8 @@ from marcel.savegnago import me as Me
 
 class About(Me):
     """A class encapsulating my expertise as an Odoo Alias Source Specialist,
-    PSC member of OCA repos (l10n-brazil, fleet, helpdesk-mgmt), and skills in
-    Python, AI, and DevOps."""
+    PSC member of OCA repos (l10n-brazil, fleet, helpdesk-mgmt), and my
+    commitment to open source, Python, AI, and DevOps."""
 
     def coding_skills(self):
         """Returns a list of programming languages I’m proficient in."""
@@ -15,13 +15,13 @@ class About(Me):
                 'Go']
 
     def odoo_expertise(self):
-        """Returns my specialized Odoo skills and contributions."""
+        """Returns my specialized Odoo skills and open source contributions."""
         return [
             'Odoo Development & Customization',
             'Alias Source Specialist',
             'PSC Member: OCA/l10n-brazil, OCA/fleet, OCA/helpdesk-mgmt',
             'Localization (Brazilian Standards: NF-e, NFS-e, CNAB)',
-            'Odoo ERP Implementation'
+            'Open Source Advocate & Contributor'
         ]
 
     def ai_skills(self):
@@ -56,7 +56,7 @@ class About(Me):
             'AI-Enhanced ERP Systems',
             'Business Intelligence (BI)',
             'Advanced Python Techniques',
-            'OCA Repository Governance'
+            'Open Source Community Leadership'
         ]
 
     def tools_of_the_trade(self):
