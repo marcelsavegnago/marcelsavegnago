@@ -1,5 +1,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-MarcelSavegnago-blue)](https://www.linkedin.com/in/marcelsavegnago/)
 [![Company](https://img.shields.io/badge/Company-Escodoo-blueviolet)](https://escodoo.com.br)
+[![Company](https://img.shields.io/badge/Company-Deepze.ai-blue)](https://deepze.ai)
 
 ```python
 from marcel.savegnago import me as Me
