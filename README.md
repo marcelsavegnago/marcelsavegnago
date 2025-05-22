@@ -19,7 +19,6 @@ class About(Me):
         """Returns my specialized Odoo skills and open source contributions."""
         return [
             'Odoo Development & Customization',
-            'Alias Source Specialist',
             'PSC Member: OCA/l10n-brazil, OCA/fleet, OCA/helpdesk-mgmt',
             'Localization (Brazilian Standards: NF-e, NFS-e, CNAB)',
             'Open Source Advocate & Contributor'
